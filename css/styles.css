@@ -1,25 +1,60 @@
+:root {
+  --hero-text-color: #ffffff;
+
+  --primery-text-color: #000;
+  --title-text-color: #757575;
+  --accent-color: #2169f3;
+}
 body {
   background-color: #ffffff;
-  color: #212121;
+  color: #757575;
 }
 .list {
   list-style: none;
 }
 .logo {
-  color: #000;
+  color: rgb(212, 37, 37);
+}
+.logo .link:hover,
+.link:focus {
+  color: var(--accent-color);
 }
 /*site nav*/
 .site-nav .link {
-  color: #2169f3;
+  color: var(--accent-color);
 }
-,
+
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #000;
+  color: var(--primery-text-color);
+}
+
+/*hero*/
+.hero-title {
+  color: var(--hero-text-color);
+}
+.hero .link {
+  background-color: var(--accent-color);
+}
+/*section*/
+.section-title {
+  color: var(--primery-text-color);
+}
+
+.features-list-title {
+  color: var(--primery-text-color);
+}
+.button {
+  background-color: var(--hero-text-color);
+  color: var(--accent-color);
+}
+.button.primary {
+  background-color: var(--hero-text-color);
+  color: var(--title-text-color);
 }
 /*колір основного тексту #212121*/
 /*колір фону основного тексту #FFFFFF*/
 /*колір вторинн тексту #757575*/
 /*акцент #2196F3*/
 /*колір фона вториннй: #F5F4FA;*/
-/*колір фона героя #2F303A*/
+/*колір фона героя #2F303A*/ ;
