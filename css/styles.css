@@ -48,9 +48,13 @@ body {
   background-color: var(--hero-text-color);
   color: var(--accent-color);
 }
-.button.primary {
+.button-primary {
   background-color: var(--hero-text-color);
-  color: var(--title-text-color);
+  color: #212121;
+}
+.button-secondary {
+  background-color: var(--hero-text-color);
+  color: var(--accent-color);
 }
 /*колір основного тексту #212121*/
 /*колір фону основного тексту #FFFFFF*/
