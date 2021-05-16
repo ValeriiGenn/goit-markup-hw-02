@@ -1,5 +1,5 @@
 body {
-  background-color: #e5e5e5;
+  background-color: #ffffff;
   color: #212121;
 }
 .list {
@@ -9,12 +9,16 @@ body {
   color: #000;
 }
 /*site nav*/
-.site-nav . link:hover,
-.site-nav . link:focus {
+.site-nav .link {
+  color: #2169f3;
+}
+,
+.site-nav .link:hover,
+.site-nav .link:focus {
   color: #000;
 }
 /*колір основного тексту #212121*/
-/*колір фону основного тексту #E5E5E5*/
+/*колір фону основного тексту #FFFFFF*/
 /*колір вторинн тексту #757575*/
 /*акцент #2196F3*/
 /*колір фона вториннй: #F5F4FA;*/
