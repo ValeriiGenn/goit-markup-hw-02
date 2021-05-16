@@ -1,6 +1,14 @@
 body {
-  background-color: ;
+  background-color: E5E5E5;
+}
+.list {
+  list-style: none;
 }
 .logo {
+  color: #000;
+}
+/*site nav*/
+.site-nav . link:hover,
+.site-nav . link:focus {
   color: #000;
 }
