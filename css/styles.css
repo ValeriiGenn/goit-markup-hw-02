@@ -1,9 +1,11 @@
 :root {
-  --hero-text-color: #ffffff;
+  --white-color: #ffffff;
 
-  --primery-text-color: #000;
-  --title-text-color: #757575;
+  --black-color: #000;
+  --gray-color: #757575;
   --accent-color: #2169f3;
+  --hero-color: #2f303a;
+  --button-text-color: #212121;
 }
 body {
   background-color: #ffffff;
@@ -13,7 +15,7 @@ body {
   list-style: none;
 }
 .logo {
-  color: rgb(212, 37, 37);
+  color: var(--black-color);
 }
 .logo .link:hover,
 .link:focus {
@@ -21,41 +23,65 @@ body {
 }
 /*site nav*/
 .site-nav .link {
-  color: var(--accent-color);
+  color: var(--button-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--primery-text-color);
+  color: var(--accent-color);
 }
-
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+.auth-nav .link {
+  color: var(--button-text-color);
+}
 /*hero*/
-.hero-title {
-  color: var(--hero-text-color);
+.hero .title {
+  color: var(--white-color);
+  background-color: var(--hero-color);
 }
 .hero .link {
   background-color: var(--accent-color);
+  color: var(--white-color);
 }
 /*section*/
-.section-title {
-  color: var(--primery-text-color);
+.section .title {
+  color: var(--black-color);
+}
+/*чим ми займаємося*/
+.features .list .title {
+  color: var(--black-color);
+}
+/*наша команда*/
+.team .list .title {
+  color: var(--black-color);
+}
+/*кнопки*/
+.button {
+  background-color: var(--white-color);
+  color: var(--button-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.button .primary {
+  background-color: var(--white-color);
+  color: var(--black-color);
 }
 
-.features-list-title {
-  color: var(--primery-text-color);
-}
-.button {
-  background-color: var(--hero-text-color);
+.button .secondary {
+  background-color: var(--white-color);
   color: var(--accent-color);
 }
-.button-primary {
-  background-color: var(--hero-text-color);
-  color: #212121;
-}
-.button-secondary {
-  background-color: var(--hero-text-color);
-  color: var(--accent-color);
-}
+
 /*колір основного тексту #212121*/
 /*колір фону основного тексту #FFFFFF*/
 /*колір вторинн тексту #757575*/
