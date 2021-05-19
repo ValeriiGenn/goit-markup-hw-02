@@ -10,12 +10,17 @@
 body {
   background-color: #ffffff;
   color: #757575;
+  font-family: Roboto, Raleway;
 }
 .list {
   list-style: none;
 }
 .logo {
   color: var(--black-color);
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
 }
 .logo .link:hover,
 .link:focus {
@@ -24,6 +29,12 @@ body {
 /*site nav*/
 .site-nav .link {
   color: var(--button-text-color);
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 .site-nav .link:hover,
@@ -44,6 +55,11 @@ body {
 .hero .title {
   color: var(--white-color);
   background-color: var(--hero-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
 }
 .hero .link {
   background-color: var(--accent-color);
@@ -52,11 +68,26 @@ body {
 /*section*/
 .section .title {
   color: var(--black-color);
+
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 /*чим ми займаємося*/
 .features .list .title {
   color: var(--black-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
 }
+.features-list text {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
 /*наша команда*/
 .team .list .title {
   color: var(--black-color);
@@ -65,7 +96,7 @@ body {
 .button {
   background-color: var(--white-color);
   color: var(--button-text-color);
-  font-family: Roboto;
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
