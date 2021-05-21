@@ -10,7 +10,7 @@
 body {
   background-color: #ffffff;
   color: #757575;
-  font-family: Roboto, Raleway;
+  font-family: Roboto; Raleway;
 }
 .list {
   list-style: none;
@@ -28,10 +28,11 @@ body {
 }
 .logo .first {
   color: var(--accent-color);
+  font-style: normal;
 }
 /*site nav*/
-.site-nav .link {
-  color: var(--button-text-color);
+.site-nav .list {
+  color: var(--black-color);
 
   font-family: Roboto;
   font-style: normal;
@@ -52,7 +53,14 @@ body {
   color: var(--accent-color);
 }
 .auth-nav .link {
-  color: var(--button-text-color);
+  color: var(--gray-color);
+}
+.link {
+  text-decoration: none;
+}
+.transparent,
+.transparent-title {
+  display: none;
 }
 /*hero*/
 .hero .title {
@@ -69,16 +77,25 @@ body {
   color: var(--white-color);
 }
 /*section*/
-.section .title {
+.section-title {
   color: var(--black-color);
-
+  
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
 }
+.section .title {
+  color: var(--black-color);
+ font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+}
 /*чим ми займаємося*/
 .features .list .title {
+  background-color:var(--white-color) ;
   color: var(--black-color);
 
   font-weight: 500;
@@ -94,6 +111,11 @@ body {
 /*наша команда*/
 .team .list .title {
   color: var(--black-color);
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
 }
 /*кнопки*/
 .button {
@@ -106,19 +128,31 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-.button .primary {
-  background-color: var(--white-color);
-  color: var(--black-color);
-}
 
-.button .secondary {
-  background-color: var(--white-color);
-  color: var(--accent-color);
+/*footer*/
+.footer,
+.second,
+.third {
+  background-color: var(--hero-color);
+  color: var(--white-color);
+  text-decoration: none;
+  font-style: normal;
 }
+/*портфоліо */
+.signature {
+  color: var(--button-text-color);
+  text-decoration: none;
+  font-weight: bold
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.container {
+ text-decoration: none; 
+}
+.info {
+  color: var(--gray-color);
 
-/*колір основного тексту #212121*/
-/*колір фону основного тексту #FFFFFF*/
-/*колір вторинн тексту #757575*/
-/*акцент #2196F3*/
-/*колір фона вториннй: #F5F4FA;*/
-/*колір фона героя #2F303A*/ ;
+font-size: 16px;
+line-height: 1.9;
+letter-spacing: 0.03em;}
