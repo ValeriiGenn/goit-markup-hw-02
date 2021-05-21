@@ -26,6 +26,9 @@ body {
 .link:focus {
   color: var(--accent-color);
 }
+.logo .first {
+  color: var(--accent-color);
+}
 /*site nav*/
 .site-nav .link {
   color: var(--button-text-color);
