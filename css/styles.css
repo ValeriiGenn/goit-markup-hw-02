@@ -2,12 +2,11 @@
   --white-color: rgb(255,255,255);
   --button-color: rgb(245,244,250);
   --black-color:rgba(33, 33, 33, 1);
-   --gray-color:rgb(117, 117, 117);;
+   --gray-color:rgb(117, 117, 117);
   --accent-color: #2169f3;
   --hero-color: #2f303a;
   --button-text-color: #212121;
   --contact-color: background: rgba(255, 255, 255, 0,6);
-
 }
 body {
   background-color: #ffffff;
