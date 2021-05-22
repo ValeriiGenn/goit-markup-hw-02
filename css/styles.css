@@ -147,9 +147,6 @@ letter-spacing: 0.03em;
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.container {
- text-decoration: none; 
-}
 .info {
   color: var(--gray-color);
 
