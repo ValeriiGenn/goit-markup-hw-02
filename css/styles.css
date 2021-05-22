@@ -12,7 +12,7 @@
 body {
   background-color: #ffffff;
   color:var(--black-color);
-  font-family: Roboto; Raleway;
+  font-family: Roboto , Raleway;
 }
 .list {
   list-style: none;
