@@ -6,7 +6,7 @@
   --accent-color: #2169f3;
   --hero-color: rgba(47, 48, 58, 1);
   --button-text-color: #212121;
-  --contact-color: rgba(255, 255, 255, 0, 6);
+  --contact-color: rgba(255, 255, 255, 0.6);
 }
 body {
   background-color: #ffffff;
@@ -177,15 +177,25 @@ body {
 }
 
 /*footer*/
-.footer,
-.second,
-.third {
+.footer {
   background-color: var(--hero-color);
+  color: var(--white-color);
+}
+.address{
+  color: var(--white-color);
+  text-decoration: none;
+  font-style: normal;}
+.second {
   color: var(--white-color);
   text-decoration: none;
   font-style: normal;
 }
-.address .third:hover,
-.address .third:focus {
-  color: var(--accent-color);
+.third{
+  color:var(--contact-color);
+  text-decoration: none;
+  font-style: normal;
 }
+.third:hover,
+.third:focus {
+  color: var(--accent-color);
+
